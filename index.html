@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    p {
+      margin: 0;
+      font-family: Ubuntu;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 450px;
+      margin-left: 37%;
+      background-color: white;
+      border-radius: 25px;
+      margin-top: 6.5%;
+      box-shadow: 2px 2px 10px lightgray;
+    }
+    .heading1 {
+      font-size: 30px;
+      margin-left: 112.5px;
+      font-weight: 700;
+      margin-top: 35px;
+    }
+    .heading2 {
+      margin-left: 20%;
+      margin-right: 55px;
+      margin-top: 20px;
+      color: rgba(169, 169, 169, 0.726);
+    }
+    .thumbnail {
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+    }
+    .plan-section {
+      display: flex;
+      margin-top: 20px;
+      background-color: #f8f9fe;
+      height: 100px;
+      border-radius: 10px;
+      border-top-right-radius: 10px;
+      width: 410px;
+      margin-left: 4%;
+      margin-right: 4%;
+    }
+    .change-button {
+      margin-left: 40%;
+      background-color: #f8f9fe;
+      color: #4033a1;
+      border-style: none;
+      font-weight: bold;
+    }
+    .plan-details {
+      margin-top: 30px;
+      margin-left: 3%;
+    }
+    .music-icon {
+      width: 50px;
+      height: 50px;
+      margin-top: 5%;
+      margin-left: 4%;
+    }
+    .payment-button {
+      margin-top: 6%;
+      height: 50px;
+      width: 410px;
+      background-color: #4338be;
+      margin-left: 4%;
+      border-style: none;
+      border-radius: 10px;
+      font-weight: bold;
+      color: white;
+      font-weight: 18px;
+      font-family: Ubuntu;
+      box-shadow: 2px 2px 10px #1f1a579c;
+    }
+    .cancel-button {
+      margin-top: 5%;
+      margin-bottom: 6%;
+      height: 40px;
+      width: 410px;
+      margin-left: 4%;
+      background-color: white;
+      border-style: none;
+      color: rgb(143, 143, 143);
+      font-weight: bold;
+      font-family: Ubuntu;
+    }
+  </style>
+  <body
+    style="
+      background-image: url(pattern-background-desktop.svg);
+      background-color: #e0e8ff;
+    "
+  >
+    <div main class="container">
+      <div>
+        <img class="thumbnail" src="illustration-hero.svg" alt="" />
+      </div>
+      <div>
+        <p class="heading1">Order Summary</p>
+        <p class="heading2">
+          You can now Listen to million of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <section class="plan-section">
+          <img class="music-icon" src="icon-music.svg" alt="" />
+          <p class="plan-details">
+            <strong>Annual Plan </strong><br />
+            <strong style="color: darkgray; font-weight: normal"
+              >$59.99/year</strong
+            >
+          </p>
+          <button class="change-button"><u>Change</u></button>
+        </section>
+        <section style="display: flex; flex-direction: column">
+          <button class="payment-button">Proceed to payment</button>
+          <button class="cancel-button">Cancel Order</button>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
